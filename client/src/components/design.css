@@ -1,0 +1,61 @@
+.button-t {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 6px;
+    color: #1D1E2C;
+    background-color: #D7CDCC;
+    border-color: #1b1f2326;
+  }
+
+
+.title-box {
+  height: auto;
+  width: 200px;
+  background-color: #59656F;
+
+}
+
+.close-btn {
+  background-color: #4d629d;
+  color: #FFFFFF;
+  
+}
+.close-btn:hover {
+  background-color: #de4b4b;
+}
+
+.title-text {
+  font-family: 'Caprasimo', cursive;
+  color: #1D1E2C;
+  margin: auto;
+  font-size: 50px;
+}
+
+.form-text {
+  font-family: 'Lunasima', sans-serif;
+
+}
+
+.show {
+  animation-name: appear;
+  animation-duration: 2s;
+  transition-delay: 3s;
+}
+
+
+@keyframes appear {
+  from{ transform: translateY(-100px);
+    opacity: 0;
+  }
+  to{transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
